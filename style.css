@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: bisque;
+}
+.overline{
+    text-decoration: overline;
+    height: 20px;
+    margin: 10px;
+}
+.em, .me, .end{
+    margin: 5px;
+}
+.rmv{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+.rmv li a{
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+@media screen and (max-width: 1000px){
+    body {
+        padding: 20px;
+        text-align: center;
+    }
+}
